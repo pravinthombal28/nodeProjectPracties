@@ -1,5 +1,5 @@
 let mysql=require("mysql2");
-let express=require("express");
+// let express=require("express");
 require("dotenv").config();
 
 let conn=mysql.createConnection({
